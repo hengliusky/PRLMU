@@ -24,14 +24,14 @@ Training code will be available after the paper received.
 
 ## Results
 
-Results on CCA-US dataset
+### Results on CCA-US dataset
 ![img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results1.png)
 
-Results on US-CASE dataset
+### Results on US-CASE dataset
 ![img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results2.png)
 
-Results on Real World
-+fetal head ultrasound images
+### Results on Real World
++ fetal head ultrasound images
 ![img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results3.png)
-+thyroid ultrasound images
++ thyroid ultrasound images
 ![img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results4.png)
