@@ -1,7 +1,6 @@
 # PRLMU
 
-This repository is for the paper, "**Progressive Residual Learning with Memory Upgrade for Ultrasound Image Blind Super-resolution**", which  is being submitted and awaiting review.
-
+This repository is for the paper, "**Progressive Residual Learning with Memory Upgrade for Ultrasound Image Blind Super-resolution**", which has been submitted and is awaiting review.
 ## Requirements
 
 + python: 3.8.3
@@ -12,6 +11,7 @@ This repository is for the paper, "**Progressive Residual Learning with Memory U
 
 ## Pre-trained Model & Dataset Preparation
 Pretrained model of PRLMU and some test set are available at [BaiduYun](https://pan.baidu.com/s/1jBaxP-_KI7LRh0LLOey55g)(password:7x0w). After the dataset downloaded, run `codes/scripts/create_lmdb.py` to transform datasets to binary files(you need  to modify the paths by your self).
+
 ## Training   
 
 Training code will be available after the paper received.
