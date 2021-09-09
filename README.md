@@ -34,8 +34,8 @@ Training code will be available after the paper received.
 
 ### Results on Real World
 
-fetal head ultrasound images
+#### fetal head ultrasound images
 ![img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results3.png)
 
-thyroid ultrasound images
+#### thyroid ultrasound images
 ![img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results4.png)
