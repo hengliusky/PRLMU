@@ -8,9 +8,10 @@ This repository is for the paper, "**Progressive Residual Learning with Memory U
 + pytorch: 1.5.0
 + CUDA: 10.1
 + Ubuntu: 18.04
++ Python packages: pip3 install numpy opencv-python lmdb pyyaml
 
 ## Pretrained Model & Dataset
-Pretrained model of PRLMU is available at [BaiduYun](https://pan.baidu.com/s/1jBaxP-_KI7LRh0LLOey55g)(password:7x0w)
+Pretrained model of PRLMU and some test set are available at [BaiduYun](https://pan.baidu.com/s/1jBaxP-_KI7LRh0LLOey55g)(password:7x0w)
 ## Training   
 
 Training code will be available after the paper received.
@@ -24,3 +25,13 @@ Training code will be available after the paper received.
 ## Results
 
 Results on CCA-US dataset
+[!img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results1.png)
+
+Results on US-CASE dataset
+[!img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results2.png)
+
+Results on Real World
++fetal head ultrasound images
+[!img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results3.png)
++thyroid ultrasound images
+[!img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results4.png)
