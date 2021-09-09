@@ -10,17 +10,16 @@ This repository is for the paper, "**Progressive Residual Learning with Memory U
 + Ubuntu: 18.04
 + Python packages: pip3 install numpy opencv-python lmdb pyyaml
 
-## Pretrained Model & Dataset
-Pretrained model of PRLMU and some test set are available at [BaiduYun](https://pan.baidu.com/s/1jBaxP-_KI7LRh0LLOey55g)(password:7x0w)
+## Pre-trained Model & Dataset Preparation
+Pretrained model of PRLMU and some test set are available at [BaiduYun](https://pan.baidu.com/s/1jBaxP-_KI7LRh0LLOey55g)(password:7x0w). After the dataset downloaded, run `codes/scripts/create_lmdb.py` to transform datasets to binary files(you need  to modify the paths by your self).
 ## Training   
 
 Training code will be available after the paper received.
 
 ## Testing
-
-+ run `codes/scripts/create_lmdb` to transform datasets to binary files(you need  to modify the paths by your self)
+You need to modify the dataset path and the pre-trainied model path in `test_setting.yml` before testing.
 > `cd codes/config/cascade`
- `python test.py -opt=test_setting.yml`
+> `python test.py -opt=test_setting.yml`
 
 ## Results
 
