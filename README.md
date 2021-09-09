@@ -19,8 +19,8 @@ Training code will be available after the paper received.
 ## Testing
 
 + run `codes/scripts/create_lmdb` to transform datasets to binary files(you need  to modify the paths by your self)
-+ `cd codes/config/cascade`
-+ `python test.py -opt=test_setting.yml`
+> `cd codes/config/cascade`
+ `python test.py -opt=test_setting.yml`
 
 ## Results
 
