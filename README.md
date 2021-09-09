@@ -18,9 +18,8 @@ Training code will be available after the paper received.
 
 ## Testing
 You need to modify the dataset path and the pre-trainied model path in `test_setting.yml` before testing.Then run the following command:
-> `cd codes/config/cascade`
->
-> `python test.py -opt=test_setting.yml`
+> cd codes/config/cascade
+> python test.py -opt=test_setting.yml
 
 ## Results
 
