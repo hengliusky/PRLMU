@@ -23,11 +23,11 @@ You need to modify the dataset path and the pre-trainied model path in `test_set
 
 ## Results
 
-### Results on CCA-US dataset
+### Results under protocol 1
 
 ![img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results_1.png)
 
-### Results on US-CASE dataset
+### Results under protocol 2
 
 ![img](https://github.com/hengliusky/PRLMU/blob/main/pic/Results_2.png)
 
