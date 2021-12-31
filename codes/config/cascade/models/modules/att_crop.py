@@ -50,22 +50,6 @@ class AttentionCropBlock(nn.Module):
         out = torch.zeros([B, C, self.crop_size, self.crop_size]).cuda()
         for i in range(x.shape[0]):
             out[i, :, :, :] = x[i, :, row_id[i]:row_id[i]+self.crop_size, col_id[i]:col_id[i]+self.crop_size]
-
-        '''import matplotlib.pyplot as plt
-
-        plt.pause(1)
-        plt.subplot(221)
-        plt.imshow(x.cpu().detach()[0].permute(1, 2, 0).flip([0, 1]), )
-        plt.imsave('/home/customer/Desktop/attention/org.png', torch.abs(x.cpu().detach()[0].permute(1, 2, 0).flip([0, 1])).numpy())
-
-        plt.subplot(222)
-        plt.imshow(sa.cpu().detach()[0].squeeze(0).flip([0, 1]), )
-        plt.imsave('/home/customer/Desktop/attention/sa.png', sa.cpu().detach()[0].squeeze(0).flip([0, 1]).numpy())
-
-        plt.subplot(223)
-        plt.imshow(out.cpu().detach()[0].permute(1, 2, 0).flip([0, 1]), cmap='gray')
-        plt.imsave('/home/customer/Desktop/attention/crop.png', out.cpu().detach()[0].permute(1, 2, 0).flip([0, 1]).numpy())
-        plt.show()'''
         return out
 
     def get_highest_area(self, arr):
